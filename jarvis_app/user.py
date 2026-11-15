@@ -22,7 +22,7 @@ class User:
         return f'{self.name} (runs: {self.runs}, facts: {len(self.memory)})'    
 
     def greet(self):
-        return f"Salom, {self.name}!"
+        return f"Hello, {self.name}!"
 
     def bye(self):
         return f"Bye, {self.name}!"

@@ -24,6 +24,7 @@ class User:
     def greet(self):
         return f"Hello, {self.name}!"
 
+
     def bye(self):
         return f"Bye, {self.name}!"
 

@@ -24,7 +24,8 @@ class User:
     def greet(self):
         return f'hi {self.name}'
 
-
+    def bye(self):
+        return f"Bye, {self.name}!"
 
 
 if __name__ == '__main__':
